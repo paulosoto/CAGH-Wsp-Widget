@@ -33,7 +33,7 @@ html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data
 
 ---
 
-# Configuracion
+# Configuración
 
 | Attribute | Description | Values | Default |
 |---|---|---|---|
@@ -45,7 +45,7 @@ html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data
 
 ---
 
-# Modes
+# Modos
 
 ## Direct Mode
 
