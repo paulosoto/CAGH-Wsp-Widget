@@ -1,33 +1,34 @@
+"}
 # GH WhatsApp Widget
 
-Modern floating WhatsApp widget with QR popup, auto mode and customizable UI.
+Widget flotante moderno de WhatsApp con popup QR, modo automático y UI personalizable.
 
-Floating quietly in the corner like a digital concierge ready to help. ✨
+Flotando silenciosamente en la esquina como un concierge digital listo para ayudar. ✨
 
 ---
 
-# Features
+# Características
 
-- Floating WhatsApp button
-- QR popup mode
-- Direct WhatsApp mode
-- Auto mode:
-  - Mobile → opens WhatsApp directly
-  - Desktop → shows QR popup
-- Custom phone number
-- Custom position
-- Custom color
-- Custom message
-- Lightweight Vanilla JavaScript
-- No dependencies
+- Botón flotante de WhatsApp
+- Modo QR
+- Modo directo
+- Modo automático:
+  - Móvil → abre WhatsApp directamente
+  - Desktop → muestra QR
+- Número personalizable
+- Posición personalizable
+- Color personalizable
+- Mensaje personalizable
+- Vanilla JavaScript puro
+- Sin dependencias
 - Responsive
-- Modern glassmorphism UI
+- UI moderna glassmorphism
 
 ---
 
-# Instalacion
+# Instalación
 
-Add the script before the closing </body> tag.
+Agrega el script antes de cerrar el </body>.
 
 html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data-mode="auto"   data-position="right"   data-color="#25D366"   data-message="Habla con nosotros 💬" ></script> 
 
@@ -35,114 +36,51 @@ html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data
 
 # Configuración
 
-| Attribute | Description | Values | Default |
+| Atributo | Descripción | Valores | Default |
 |---|---|---|---|
-| data-phone | WhatsApp number with country code | 51999999999 | ERROR |
-| data-mode | Widget behavior | direct, qr, auto | direct |
-| data-position | Screen position | right, left | right |
-| data-color | Main button color | Any HEX color | #25D366 |
-| data-message | QR popup title | Text | Habla con nosotros 💬 |
+| data-phone | Número WhatsApp con código país | 51999999999 | ERROR |
+| data-mode | Comportamiento | direct, qr, auto | direct |
+| data-position | Posición | right, left | right |
+| data-color | Color principal | HEX | #25D366 |
+| data-message | Título popup QR | Texto | Habla con nosotros 💬 |
 
 ---
 
 # Modos
 
-## Direct Mode
+## Direct
 
-Click opens WhatsApp directly.
+Abre WhatsApp directamente.
 
 html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data-mode="direct" ></script> 
 
 ---
 
-## QR Mode
+## QR
 
-Click displays the QR popup.
+Muestra popup QR.
 
 html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data-mode="qr" ></script> 
 
 ---
 
-## Auto Mode
+## Auto
 
-- Mobile devices → opens WhatsApp
-- Desktop devices → shows QR popup
+- Mobile → abre WhatsApp
+- Desktop → muestra QR
 
 html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data-mode="auto" ></script> 
-
----
-
-# Custom Color Example
-
-html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data-color="#0066ff" ></script> 
-
----
-
-# Left Position Example
-
-html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data-position="left" ></script> 
-
----
-
-# Ejemplo
-
-html <script   src="src/gh-whatsapp-widget.js"   data-phone="51944648831"   data-mode="auto"   data-position="right"   data-color="#25D366"   data-message="Atención médica 💬" ></script> 
-
----
-
-# Estructura
-
-plaintext gh-whatsapp-widget/ ├── README.md ├── LICENSE ├── demo.html ├── .gitignore └── src/     └── gh-whatsapp-widget.js 
-
----
-
-# Compatibilidad
-
-Compatible with:
-
-- HTML
-- WordPress
-- JSP / Tomcat
-- Vue.js
-- PHP
-- Laravel
-- React
-- Static websites
 
 ---
 
 # Autor
 
 Paulo Soto  
-🌐 https://www.goodhope.org.pe/  
-🐙 https://github.com/paulosoto
+https://www.goodhope.org.pe/  
+https://github.com/paulosoto
 
 ---
 
 # Licencia
 
-All rights reserved.
-
-This software and its source code are the property of Paulo Soto and Clínica Adventista Good Hope.
-
-Unauthorized copying, modification, distribution, or commercial use is prohibited without prior written permission.
-
----
-
-# Ideas futuras
-
-- Dark mode
-- Notification badge
-- Sound effects
-- Analytics integration
-- Multiple agents
-- Online/offline status
-- Chat preload message
-- Theme presets
-- SDK API
-
----
-
-# ⭐ GH WhatsApp Widget
-
-Minimalist. Modern. Floating quietly in the corner like a digital concierge waiting to help.
+Reservada. Todos los derechos reserv
